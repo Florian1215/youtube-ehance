@@ -221,3 +221,7 @@ html[hide_fullscreen_scroll=true] #movie_player {
     overscroll-behavior: contain !important;
     --ytp-grid-scroll-percentage: 0 !important
 }
+
+html[hide_fullscreen_buttons=true] .ytp-fullscreen-quick-actions {
+    display: none !important
+}
