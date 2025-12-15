@@ -225,3 +225,9 @@ html[hide_fullscreen_scroll=true] #movie_player {
 html[hide_fullscreen_buttons=true] .ytp-fullscreen-quick-actions {
     display: none !important
 }
+
+.ytp-menuitem[role=menuitemcheckbox].annOption,
+.ytp-settings-menu .ytp-menuitem[role=menuitemcheckbox]:last-child {
+    display: none !important;
+    visibility: hidden !important
+}
