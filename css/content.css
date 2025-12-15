@@ -203,3 +203,21 @@ html[hide_drawer=true] ytd-browse[page-subtype=channels] #tabs-inner-container {
     width: 100% !important;
     margin: 0 !important
 }
+
+html[hide_fullscreen_scroll=true] body.ytp-fullscreen-mode {
+    overflow: hidden !important;
+    overscroll-behavior: contain !important
+}
+
+html[hide_fullscreen_scroll=true] body.ytp-fullscreen-mode #content,
+html[hide_fullscreen_scroll=true] body.ytp-fullscreen-mode #page-manager.ytd-app,
+html[hide_fullscreen_scroll=true] body.ytp-fullscreen-mode > ytd-app,
+html[hide_fullscreen_scroll=true] body.ytp-fullscreen-mode ytm-app {
+    overflow: hidden !important
+}
+
+html[hide_fullscreen_scroll=true] #movie_player {
+    overflow: hidden !important;
+    overscroll-behavior: contain !important;
+    --ytp-grid-scroll-percentage: 0 !important
+}
