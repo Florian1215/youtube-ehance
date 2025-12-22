@@ -226,6 +226,20 @@ html[hide_fullscreen_buttons=true] .ytp-fullscreen-quick-actions {
     display: none !important
 }
 
+html[hide_cinema_mode=true] #cinematics,
+html[hide_cinema_mode=true] .ytp-ce-element-show,
+html[hide_cinema_mode=true] .ytp-ce-element,
+html[hide_cinema_mode=true] .ytp-ce-covering-overlay,
+html[hide_cinema_mode=true] .ytp-gradient-bottom,
+html[hide_cinema_mode=true] .html5-video-player .ytp-ce-shadow,
+html[hide_cinema_mode=true] #cinematics-container,
+html[hide_cinema_mode=true] .ytp-player-content.ytp-ce-shown,
+html[hide_cinema_mode=true] .ytp-cued-thumbnail-overlay-image {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
 .ytp-menuitem[role=menuitemcheckbox].annOption,
 .ytp-settings-menu .ytp-menuitem[role=menuitemcheckbox]:last-child {
     display: none !important;
