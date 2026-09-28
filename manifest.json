@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "YoutubExt - Hide & Download",
-  "short_name": "YoutubExt",
+  "name": "Youtube ehance",
+  "short_name": "YoutubEhance",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": "images/icon-128.png",
     "default_popup": "popup.html",
-    "default_title": "YoutubExt"
+    "default_title": "YoutubEhance"
   },
   "author": "florian guiramand",
   "background": {
@@ -43,10 +43,7 @@
     "https://m.youtube.com/*"
   ],
   "web_accessible_resources": [
-    "js/unhook-yt.js",
-    "js/download-buttons.js",
-    "images/icon-download-video.svg",
-    "images/icon-download-audio.svg"
+    "js/unhook-yt.js"
   ],
   "version": "2.2",
   "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
