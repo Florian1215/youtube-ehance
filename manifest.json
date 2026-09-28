@@ -45,7 +45,7 @@
   "web_accessible_resources": [
     "js/unhook-yt.js"
   ],
-  "version": "2.2",
+  "version": "2.3",
   "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
   "browser_specific_settings": {
     "gecko": {
